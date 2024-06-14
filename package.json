@@ -1,0 +1,33 @@
+{
+  "name": "@ssts/wait",
+  "description": "Promise wait | Good for development.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://github.com/Senior-Sedo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Senior-Sedo/seniorWAIT.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "promise",
+    "wait",
+    "promise-wait",
+    "async",
+    "await"
+  ],
+  "author": "Senior Sedo",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
