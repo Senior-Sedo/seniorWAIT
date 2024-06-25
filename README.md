@@ -33,13 +33,13 @@ import seniorWAIT from "@ssts/wait";
 const handleSomething = async (): Promise<void> => {
   try {
     console.log("waiting started");
-    await seniorWAIT(2000);   // in milliseconds
+    await seniorWAIT(2000);   // in milliseconds (2 seconds)
     console.log("waiting done");
     
     await doSomething();
 
   } catch (error) {
-    console.log(error);
+    console.error(error);
   }
 }
 ```
